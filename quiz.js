@@ -9,10 +9,10 @@ function checkAnswer() {
 
   //compare the user's answer with the correct answer
   if (userAnswer === correctAnswer) {
-    console.log("Your answer is correct!");
+    console.log("correct answer!");
     feedback.textContent = "Correct! Well done.";
   } else {
-    console.log("Your answer is incorrect!");
+    console.log("incorrect answer!");
     feedback.textContent = "That's incorrect. Try again!";
   }
 }
