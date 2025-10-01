@@ -3,7 +3,7 @@ function checkAnswer() {
   const correctAnswer = "4";
 
   //retrieve the user's answer
-  const userAnswer = document.querySelector("quiz").value;
+  const userAnswer = document.querySelector("input[name='quiz']:checked").value;
   const feedback = document.getElementById("feedback");
   const submit = document.getElementById("submit-answer");
 
